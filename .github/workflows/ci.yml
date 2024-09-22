@@ -10,6 +10,9 @@ permissions:
   actions: read
   contents: read
 
+env:
+  NX_CLOUD_ACCESS_TOKEN: Zjk4MGY1ZjctMWZkMi00MGQ0LWFkMmEtZjAyYzFlN2ExMWRlfHJlYWQtd3JpdGU=
+
 jobs:
   main:
     runs-on: ubuntu-latest
