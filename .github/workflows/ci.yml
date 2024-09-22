@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  NX_CLOUD_ACCESS_TOKEN: Zjk4MGY1ZjctMWZkMi00MGQ0LWFkMmEtZjAyYzFlN2ExMWRlfHJlYWQtd3JpdGU=
+  NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
 
 jobs:
   main:
